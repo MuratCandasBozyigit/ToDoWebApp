@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Odak",
+    "slug": "odak-todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B3F3C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.odak.todo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B3F3C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.odak.todo",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

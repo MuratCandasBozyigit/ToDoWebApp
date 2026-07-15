@@ -1,0 +1,18 @@
+export const colors = {
+  bgTop: '#0B3F3C',
+  bgMid: '#0F5C57',
+  bgBottom: '#E8F3F0',
+  surface: 'rgba(255, 255, 255, 0.92)',
+  surfaceMuted: 'rgba(255, 255, 255, 0.55)',
+  ink: '#102826',
+  inkMuted: '#5A736F',
+  inkSoft: '#8AA09C',
+  brand: '#0F5C57',
+  accent: '#E2A008',
+  accentSoft: 'rgba(226, 160, 8, 0.18)',
+  success: '#1F8A70',
+  danger: '#C45C4A',
+  dangerSoft: 'rgba(196, 92, 74, 0.12)',
+  line: 'rgba(16, 40, 38, 0.08)',
+  white: '#FFFFFF',
+} as const;
